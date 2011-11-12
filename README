@@ -1,0 +1,12 @@
+This project is an example of one way to reimplement iMessages keyboard dragging behavior (mostly).
+
+You probably don't want to use this code. While it doesn't use any private APIs, it could be argued
+that this code does rely on undefined behavior in determining which window the keyboard is placed 
+in (let alone in knowing that the keyboard is even placed in its own window).
+
+What this means is that if you do use any of this code in your project, there is a chance that
+Apple may reject your app during the approval process. Or a chance that the behavior will be 
+changed in the future, and the keyboard dragging behavior will just stop working.
+
+Code is under an MIT license. If you do decide to use this code in your project, and something bad
+happens, it is your fault, and not mine.
